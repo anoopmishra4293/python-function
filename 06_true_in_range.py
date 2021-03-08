@@ -1,4 +1,4 @@
-a = input("Enter a number to check it is in range or not : ")
+a = input("Enter a number to check that it is in range or not : ")
 a = int(a)
 
 def num(a):

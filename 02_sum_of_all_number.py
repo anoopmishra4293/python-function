@@ -1,17 +1,8 @@
-a = input("Enter first number: ")
-a = int(a)
 
-b = input("Enter second number: ")
-b = int(b)
+def sum_multiple(*args):
+    sum=0
+    for key in args:
+        sum=sum+key
+    return sum
 
-c = input("Enter third number: ")
-c = int(c)
-
-d = input("Enter third number: ")
-d = int(d)
-
-def sum_all(a,b,c,d):
-    e=a+b+c+d
-    return e
-
-print("summ of all the arguments is : ",sum_all(a,b,c,d))
+print(sum_multiple(1,2,3,4,5,6,7,8,9,10,23))
